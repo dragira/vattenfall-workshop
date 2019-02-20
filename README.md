@@ -24,36 +24,6 @@ We also have a routing guard lab. `1-routing-guards-begin` and `1-routing-guards
 
 How to communicate changes across the app with RxJS
 
-### 4-reactive
-
-`4-reactive` demonstrates a (1) reactive, (2) immutable, (3) CQRS app built with plain services rather than _ngrx_.
-See how the basic app changes to conform to these three principles.
-
-### 5-ngrx
-
-`5-ngrx-begin` refactors the `4-reactive` _Heroes_ to use **ngrx**. Only partly done.
-`5-ngrx-end` is the state of the **ngrx** app after completing the `5-ngrx-begin` lab.
-
-### 6-ngrx-data
-
-`6-ngrx-data-begin` refactors `5-ngrx-end` to use _ngrx-data_ for Heroes.
-`6-ngrx-data-end` does the same to Villains.
-It demonstrates additional metadata features, including optimistic add and update,
-which require a client-side Id Generator for Adds (see VillainService).
-
-### 7-deploy
-
-Locally
-
-1. Run `npm run 7-deploy-build` to build it.
-2. Run `npm run 7-deploy-serve` to serve it.
-3. Kill the process
-
-Locally with Docker
-
-1. Run `docker compose up` from the command palette in VS Code.
-2. Choose the debug option
-
 ## Define Multiple Apps in the Same \_src folder
 
 Example: make a lab called `n-new-lab-begin` where `n` is an integer.
